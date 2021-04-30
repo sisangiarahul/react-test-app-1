@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+
+$table-hover-color: rgba(red($warning),green($warning),blue($warning),.075) !default;
+$table-border-color: rgba(red($warning),green($warning),blue($warning),1) !default;
+
+.table-hover> tbody> tr:hover{
+  background-color:rgba(red($warning),green($warning),blue($warning),.075) !important;
+}
+
+.tableWrap {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.tableIDWidth {
+  width: 70px;
+}
+
+.rowSuccesMode {
+  background-color: rgba(red($success),green($success),blue($success), .2) !important;
+  
+}
+
+.rowEditMode {
+  background-color: rgba(red($danger),green($danger),blue($danger), .2) !important;
+}
+
+.tableButtonCell {
+  width: 5rem;
+}
+
+.cellSave {
+  color: $success;
+}
+.cellCancel {
+  color: $danger;
+}
+.cellEdit {
+  color: $warning;
+}
